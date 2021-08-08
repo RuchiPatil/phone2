@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Login Page {% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <label for="smsbody">Message: </label>
+    <textarea name="smsbody" cols="30" rows="10"> Write your message here.</textarea>
+    <label for="smsnum">Choose a number: </label>
+    <select name="smsnum">
+        <option value="+16473909082">Ruchi</option>
+    </select>
+    <p><input type="submit" value="submit"></p>
+</form>
+{% endblock %}
